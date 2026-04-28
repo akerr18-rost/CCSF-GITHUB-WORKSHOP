@@ -1,1 +1,34 @@
-YOUR API KEYS GO HERE
+# --- Security ---
+.env
+.env.local
+*.pem
+*.key
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+venv/
+ENV/
+.venv/
+
+# --- C++ (If you're using it for execution) ---
+*.o
+*.obj
+*.exe
+*.out
+build/
+
+# --- Data & Logs ---
+*.log
+data_previews/
+*.csv
+# Ignore large dataset files if you have them locally
+*.h5
+*.onnx_data
+
+# --- IDEs & OS ---
+.vscode/
+.DS_Store
+Thumbs.db

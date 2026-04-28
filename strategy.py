@@ -7,11 +7,11 @@
 
 # Buy when the price drops by this much (as a decimal)
 # Example: 0.02 means buy when price drops 2%
-buy_when_price_drops_by = 0.01
+buy_when_price_drops_by = 0.02
 
 # Sell when the price rises by this much (as a decimal)
 # Example: 0.03 means sell when price rises 3%
-sell_when_price_rises_by = 0.06
+sell_when_price_rises_by = 0.1
 
 # ============================================================
 #  WANT TO TRY SOMETHING DIFFERENT?
